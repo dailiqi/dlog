@@ -1,10 +1,6 @@
 extends ./layout/layout
-block statics
-	// .statics `statics block`
-	style.
-		body{
-			color:red
-		}
+append statics
+	link(href="/static/page/index/index.css",rel="stylesheet")
 block content
 	#container
 		h2 content block
