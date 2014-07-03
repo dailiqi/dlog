@@ -1,7 +1,7 @@
 //test git
 var express = require('express');
 var path = require('path');
-require('browserify')
+// require('browserify')
 var port = process.env.PORT || 8000;
 var app = express();
 
@@ -24,3 +24,10 @@ app.get('/' , function(req,res) {
 		email: 'tj@vision-media.ca'
 	});
 });
+app.get('/list' ,function(req,res) {
+	res.send({
+		title:'test',
+		content:'content of test',
+		type : 'game',
+	});
+})

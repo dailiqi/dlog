@@ -23,7 +23,7 @@ define('ui/toolbar/toolbar',function(require, exports, module) {
       "top":"0px",
       "right" : "0px",
       "width" : "600px",
-      "height" : "80px",
+      "height" : "90px",
       "padding" : "5px",
       "opacity": "0.5",
       "filter": "alpha(opacity=50)",
